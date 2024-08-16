@@ -1,0 +1,323 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e4d2baf8;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-image: linear-gradient(to bottom left, rgb(92, 84, 84) 60%, #ffffff);
+    padding: 1rem 10%;
+    text-align: center;
+}
+
+header > img {
+    width: 20%;
+    margin: 1% auto;
+}
+
+header > h1 {
+    font-size: 2rem;
+    font-variant: small-caps;
+    text-shadow: 1px 1px 1px #350303de;
+}
+
+nav {
+    background-color: #ffffff66;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+nav > ul > li > a:hover {
+    font-size: 1.8rem;
+    color: cadetblue;
+}
+
+section {
+    width: 95%;
+    margin: 1% auto;
+    background-image: linear-gradient(to bottom left, black, #e4d2baf8 17%);
+    border: 3px solid rgb(43, 40, 40);
+    border-radius: 5px;
+    padding: 2%;
+}
+
+section > h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+form label {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin: 0.5rem 0;
+    display: block;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form input[type="password"],
+form input[type="tel"] {
+    width: 100%;
+    max-width: 400px;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#formulario_enviar {
+    width: 150px;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    background-image: linear-gradient(to bottom left, rgb(3, 255, 255), rgb(255, 255, 255));
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#formulario_enviar:hover {
+    background-image: linear-gradient(to bottom left, rgb(255, 255, 255), cyan);
+}
+
+.lista_cursos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    justify-content: center;
+}
+
+.lista_cursos_item {
+    width: 22%;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 3px 2px 2px black, 6px 5px 6px blueviolet;
+    padding: 1rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.lista_cursos_item:hover {
+    box-shadow: 5px 4px 4px black, 10px 9px 10px red;
+    transform: scale(1.05);
+}
+
+.curso_imagem {
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+.lista_cursos_item > h3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+footer {
+    background-image: linear-gradient(to bottom, #e4d2baf8, black);
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer > p {
+    font-size: 1.3rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(29, 28, 28, 0.9);
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+    color: black;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e4d2baf8;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-image: linear-gradient(to bottom left, rgb(92, 84, 84) 60%, #ffffff);
+    padding: 1rem 10%;
+    text-align: center;
+}
+
+header > img {
+    width: 20%;
+    margin: 1% auto;
+}
+
+header > h1 {
+    font-size: 2rem;
+    font-variant: small-caps;
+    text-shadow: 1px 1px 1px #350303de;
+}
+
+nav {
+    background-color: #ffffff66;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+nav > ul > li > a:hover {
+    font-size: 1.8rem;
+    color: cadetblue;
+}
+
+section {
+    width: 95%;
+    margin: 1% auto;
+    background-image: linear-gradient(to bottom left, black, #e4d2baf8 17%);
+    border: 3px solid rgb(43, 40, 40);
+    border-radius: 5px;
+    padding: 2%;
+}
+
+section > h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.lista_cursos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    justify-content: center;
+}
+
+.lista_cursos_item {
+    width: 22%;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 3px 2px 2px black, 6px 5px 6px blueviolet;
+    padding: 1rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.lista_cursos_item:hover {
+    box-shadow: 5px 4px 4px black, 10px 9px 10px red;
+    transform: scale(1.05);
+}
+
+.curso_imagem {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.lista_cursos_item > h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.preco {
+    font-size: 1.4rem;
+    color: #008000;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.lista_cursos_item > button {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.lista_cursos_item > button:hover {
+    background-color: #ff9900;
+}
+
+footer {
+    background-image: linear-gradient(to bottom, #e4d2baf8, black);
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer > p {
+    font-size: 1.3rem;
+}
+
+.disabled {
+    pointer-events: none;
+    color: grey;
+    cursor: not-allowed;
+}
+
+/* Após o formulário ser preenchido, remova essa classe manualmente */
